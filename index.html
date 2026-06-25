@@ -1,5 +1,87 @@
-<!doctype html><html><head><meta charset="utf-8"><title>Sanshar AI</title>
-<style>body{font-family:-apple-system,Arial,sans-serif;max-width:760px;margin:60px auto;padding:0 20px;color:#1a2238;background:#fafbff}a{color:#2f6fe0}h1{color:#0b0f1e}</style></head>
-<body><h1>Sanshar AI</h1><p>Sanshar AI is an independent project sharing AI experiments, autonomous AI-agent systems, and AI-assisted video content.</p>
-<ul><li><a href="tos.html">Terms of Service</a></li><li><a href="privacy.html">Privacy Policy</a></li></ul>
-<p>Contact: bharihar400@gmail.com</p></body></html>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sanshar AI — Building Frontier AI in the Open</title>
+<meta name="description" content="Sanshar AI is an independent build-in-public channel sharing frontier-AI work: an AI-made short film built with $0 and local models, reasoning-RL research, and a free hands-on AI learning site. Honest about what AI can and can't do.">
+<style>
+:root{--bg:#0d1117;--surface:#161b22;--surface2:#1c2128;--border:#30363d;--text:#e6edf3;--muted:#8b949e;--accent:#7c83ff;--accent2:#58d6ff}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:880px;margin:0 auto;padding:34px 24px 72px;line-height:1.6}
+a{color:var(--accent2);font-weight:700;text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+.hero{padding:26px 0 28px;border-bottom:1px solid var(--border);margin-bottom:22px}
+.eyebrow{margin:0 0 12px;color:var(--accent2);font-size:12px;font-weight:800;letter-spacing:.11em;text-transform:uppercase}
+h1{margin:0;color:var(--text);font-size:clamp(30px,5vw,50px);line-height:1.05;letter-spacing:0;max-width:760px}
+.lead{max-width:720px;margin:18px 0 0;color:var(--muted);font-size:16.5px;line-height:1.7}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.hero-link{display:inline-flex;align-items:center;min-height:44px;border:1px solid var(--border);border-radius:8px;padding:10px 16px;background:var(--surface);color:var(--text)}
+.hero-link.primary{border-color:color-mix(in srgb,var(--accent) 58%,var(--border));background:color-mix(in srgb,var(--accent) 15%,var(--surface));color:var(--accent)}
+.hero-link:hover{text-decoration:none;border-color:var(--accent2)}
+.stage-header{margin:36px 0 12px;display:flex;align-items:center;gap:12px}
+.stage-header h2{font-size:12px;font-weight:850;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:0;white-space:nowrap}
+.stage-header::after{content:'';flex:1;height:1px;background:var(--border)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:18px 20px;margin:14px 0;box-shadow:0 1px 0 rgba(255,255,255,.02)}
+.card h3{margin:0;font-size:16px;color:var(--text)}
+.card p{color:#9da7b3;margin:8px 0 0;font-size:14px;line-height:1.65}
+.card em{color:var(--text);font-style:normal;font-weight:700}
+.channels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:6px}
+.channel{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:8px;background:var(--surface);padding:14px 16px;min-height:44px}
+.channel .name{color:var(--text);font-weight:800;font-size:15px}
+.channel .meta{color:var(--muted);font-size:12.5px;margin-top:4px}
+.channel.live{border-color:color-mix(in srgb,var(--accent2) 42%,var(--border))}
+.note{color:var(--muted);font-size:13px;margin-top:14px;line-height:1.6}
+footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--border);color:var(--muted);font-size:13.5px;line-height:1.7}
+footer a{color:var(--accent2)}
+@media(max-width:768px){body{padding:20px 14px 56px;max-width:100%;overflow-x:hidden}h1{font-size:30px}.channels{grid-template-columns:1fr}.card{padding:15px 16px}}
+@media(max-width:480px){body{padding:14px 11px 48px}html{overflow-x:hidden}h1{font-size:26px}.lead{font-size:14.5px}a{font-size:14px}.card p{font-size:13px}}
+</style>
+</head><body>
+
+<section class="hero">
+<p class="eyebrow">Build-in-public &middot; frontier AI</p>
+<h1>Sanshar AI</h1>
+<p class="lead">An independent channel where Rishi Harihar builds with frontier AI in the open &mdash; and shows the work honestly, including where it breaks. No hype, no black boxes: real experiments, the configs behind them, and a clear line between what the tools can do today and what they can&rsquo;t.</p>
+<div class="hero-actions">
+<a class="hero-link primary" href="https://youtube.com/channel/UCHc9AKnOa7T3jdpWLY7b0EA">Watch on YouTube</a>
+<a class="hero-link" href="#what">What it is</a>
+<a class="hero-link" href="#channels">Channels</a>
+</div>
+</section>
+
+<div class="stage-header" id="what"><h2>What Sanshar AI makes</h2></div>
+
+<div class="card">
+<h3>An AI-made short film &mdash; built for $0 on local models</h3>
+<p>A narrative short produced end-to-end with <em>locally-run</em> open models (image, video, and voice) on a single Mac &mdash; no paid cloud generation. The episodes share both the finished result and the honest production reality: the identity-consistency fixes, the prompt-length limits, and the steps that still need a human.</p>
+</div>
+
+<div class="card">
+<h3>Reasoning-RL research</h3>
+<p>Open notes and experiments on how to train and reward reasoning in AI systems &mdash; reward design, self-play with external verification, and the limits of self-supervision. Claims are stated with their evidence, and uncertainty is labelled rather than hidden.</p>
+</div>
+
+<div class="card">
+<h3>A free, hands-on AI learning site</h3>
+<p>An interactive, fully static ML/AI curriculum &mdash; transformers, agents, RAG, fine-tuning, and more &mdash; that runs its computation in your browser with no backend. Built to teach the field by letting you poke at it directly.</p>
+</div>
+
+<div class="stage-header" id="channels"><h2>Where to follow</h2></div>
+<div class="channels">
+<a class="channel live" href="https://youtube.com/channel/UCHc9AKnOa7T3jdpWLY7b0EA">
+<span class="name">YouTube &rsaquo;</span><span class="meta">Long-form builds &amp; the film &mdash; live now</span></a>
+<div class="channel">
+<span class="name">TikTok</span><span class="meta">Short clips &mdash; launching soon</span></div>
+<div class="channel">
+<span class="name">Instagram</span><span class="meta">Reels &amp; behind-the-scenes &mdash; launching soon</span></div>
+<div class="channel">
+<span class="name">Facebook</span><span class="meta">Updates &amp; longer posts &mdash; launching soon</span></div>
+</div>
+<p class="note">TikTok, Instagram, and Facebook accounts are being set up as the channel expands; this page is updated with direct links as each goes live. For now, YouTube is the home for the work.</p>
+
+<footer>
+<p><strong>Contact:</strong> <a href="mailto:bharihar400@gmail.com">bharihar400@gmail.com</a></p>
+<p><a href="tos.html">Terms of Service</a> &nbsp;&middot;&nbsp; <a href="privacy.html">Privacy Policy</a></p>
+<p>&copy; 2026 Sanshar AI &mdash; an independent content project.</p>
+</footer>
+
+</body></html>
